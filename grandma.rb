@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-speak_to_grandma(string)
+def lspeak_to_grandma(string)
   if string != string.upcase
     puts "HUH?! SPEAK UP, SONNY!"
   elsif string == string.upcase
